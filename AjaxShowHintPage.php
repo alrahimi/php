@@ -8,7 +8,8 @@
 First name: <input type="text" id="txt1" onkeyup="showHint(this.value)">
 </form>
 
-<p>Suggestions: <span id="txtHint"></span></p> 
+<p>Suggestions:</p> 
+<span id="txtHint"></span>
 
 <script>
 function showHint(str) {

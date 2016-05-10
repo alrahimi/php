@@ -45,7 +45,7 @@ if ($q !== "") {
             if ($hint === "") {
                 $hint = $name;
             } else {
-                $hint .= "<br>$name";
+                $hint .= ", $name";
             }
         }
     }
